@@ -6,6 +6,6 @@ Para começar o jogo, clique no botão "Começar" Jogo. O cronômetro iniciará 
 
 Tecnologias Usadas:
 
-HTML
-CSS
+HTML,
+CSS e
 JavaScript
