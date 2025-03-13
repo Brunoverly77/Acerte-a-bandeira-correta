@@ -57,6 +57,7 @@ body, html {
     border-radius: 10px;
     position: fixed;
     top: 20px;
+    text-align: center;
 }
 
 #cronometro-container {
@@ -89,6 +90,8 @@ body, html {
     overflow: hidden;
     text-overflow: ellipsis;
     top: 278px;
+    flex-wrap: wrap;
+    
 }
 
 .opcao-resposta:hover {
@@ -177,7 +180,43 @@ button:hover {
     right: 400px;
 }
 @media screen and (max-width: 600px) {
-    .colaborador img {
-        width: 30px;
+   
+    #cronometro-container, #progresso-fase {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 18px;
+        padding: 5px 10px;
+        border-radius: 8px;
+    }
+
+    
+    #minhaImagem {
+        width: 200px;
+        max-width: 90%;
+        display: block;
+        margin: 20px auto;
+    }
+
+    
+    .opcao-resposta {
+        width: 80%;
+        font-size: 18px;
+        margin: 5px auto;
+    }
+
+    
+    .botoes-container button {
+        width: 80%;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #como-jogar {
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        font-size: 14px;
+        padding: 8px;
     }
 }
