@@ -180,43 +180,50 @@ button:hover {
     right: 400px;
 }
 @media screen and (max-width: 600px) {
-   
-    #cronometro-container, #progresso-fase {
+    
+    #cronometro {
         position: absolute;
         top: 10px;
-        right: 10px;
-        font-size: 18px;
+        right: 50px;
+        font-size: 20px;
+        background-color: black;
+        color: white;
         padding: 5px 10px;
         border-radius: 8px;
     }
 
-    
-    #minhaImagem {
-        width: 200px;
-        max-width: 90%;
-        display: block;
-        margin: 20px auto;
+    #progresso-fase {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 8px;
     }
 
-    
+    #como-jogar {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        font-size: 16px;
+        color: white;
+        background-color: red;
+        padding: 10px;
+        border-radius: 5px;
+        z-index: 10;
+    }
+
     .opcao-resposta {
-        width: 80%;
+        width: 90%;
         font-size: 18px;
         margin: 5px auto;
     }
 
-    
     .botoes-container button {
-        width: 80%;
+        width: 90%;
         font-size: 18px;
         padding: 10px;
-    }
-
-    #como-jogar {
-        position: absolute;
-        bottom: 10px;
-        left: 10px;
-        font-size: 14px;
-        padding: 8px;
     }
 }
